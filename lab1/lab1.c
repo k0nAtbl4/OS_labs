@@ -85,7 +85,7 @@ int main(void)
 
     // читаем результат от child2 по pipe2
     printf("Результат:\n");
-    fflush(stdout);
+    fflush(stdout); // чтобы в консоль сразу выводилось
 
     char buf[256];
     ssize_t n;
